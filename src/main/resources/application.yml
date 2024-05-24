@@ -33,3 +33,6 @@ logging:
           descriptor.sql:
             BasicBinder: trace
     org.hibernate.orm.jdbc.bind: trace
+
+jwt:
+    secret: DadFufN4Oui8Bfv3ScFj6R9fyJ9hD45E6AGFsXgFsRhT4YSdSb
