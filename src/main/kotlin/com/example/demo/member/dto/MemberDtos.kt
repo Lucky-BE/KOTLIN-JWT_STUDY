@@ -4,6 +4,12 @@ import com.example.demo.common.annotation.ValidEnum
 import com.example.demo.common.status.Gender
 import com.example.demo.member.entity.Member
 import com.fasterxml.jackson.annotation.JsonProperty
+import jakarta.persistence.Column
+import jakarta.persistence.Entity
+import jakarta.persistence.Enumerated
+import jakarta.persistence.GeneratedValue
+import jakarta.persistence.GenerationType
+import jakarta.persistence.Id
 import jakarta.validation.constraints.*
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
